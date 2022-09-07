@@ -28,13 +28,13 @@ function gen_table(){
         document.getElementById("t2").innerHTML=d4;
         document.getElementById("t3").innerHTML=d5;        
     }else{
-        alert("Falta ingresar un Número");
+         alert("Falta ingresar un Número");
     }
 }
-var buttonText = document.getElementById('button-text')
+var buttonText = document.getElementById('button-click')
 buttonText.addEventListener("click", clicked)
 function clicked() {
-    alert('Has hecho click para ver las opciones')
+     +alert('has hecho click para ver las opciones')
 }
 
 guardar_localstorage();
