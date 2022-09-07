@@ -34,7 +34,7 @@ function gen_table(){
 var buttonText = document.getElementById('button-click')
 buttonText.addEventListener("click", clicked)
 function clicked() {
-     +alert('has hecho click para ver las opciones')
+     alert('has hecho click para ver las opciones')
 }
 
 guardar_localstorage();
