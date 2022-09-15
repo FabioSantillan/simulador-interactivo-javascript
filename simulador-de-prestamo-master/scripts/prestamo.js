@@ -51,3 +51,13 @@ function guardar_localstorage(){
         let nombre = "Fabio"
         localStorage.setItem("nombre", nombre);
     }
+
+    fetch(url)
+    .then(response => response.json())
+    .then(data =>{
+        console.log(data)
+    })
+    .catch(err=>console.log(err))
+    
+
+        
